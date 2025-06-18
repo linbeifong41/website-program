@@ -1,0 +1,101 @@
+#body1 {
+    background-color: beige;
+    border: 0ch;
+    display: grid;
+    justify-content: left;
+
+}
+h1 {
+    color:black;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large ;
+}
+
+#body2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: -o-linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.login-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: o 8px 30px rgba(0,0,0,0.2);
+    width: 320px;
+    max-width: 90%; 
+
+}
+
+.avatar-container {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.form-container label { 
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 1opx;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+
+button[type="submit"] {
+    width: 100%; 
+    padding:12px;
+    background-color: #4CAF50;
+    border: none; 
+    color: white; 
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.cancelbtn { 
+    background-color: #f44336;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.psw {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
