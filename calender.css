@@ -14,7 +14,7 @@ body {
 
 }
 
-.Calendar-header {
+.calendar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     
 }
 
-.Calendar-header button {
+.calendar-header button {
     background-color: transparent;
     border: none;
     font-size: 1.5em;
@@ -47,7 +47,7 @@ body {
     padding: 10px;
 }
 
-.calender-weekdays {
+.calendar-weekdays {
     background-color: #eaeef3;
 }
 
@@ -58,9 +58,13 @@ body {
 .calendar-dates div {
     border-bottom: 1px solid #eaeef3;
     cursor: pointer;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.calendar-dates div :hover {
+.calendar-dates div:hover {
     background-color: #f1f1f1;
 }
 

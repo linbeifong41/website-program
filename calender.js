@@ -8,8 +8,8 @@ let currentMonth = currentDate.getMonth();
 let currentYear =  currentDate.getFullYear();
 
 const months = [
-    'january','February', 'march','april','may','june','july',
-    'augest','september','october', 'november', 'december'
+    'January','February', 'March','April','May','June','July',
+    'Augest','September','October', 'November', 'December'
 ];
 
 function renderCalender(month, year) {
