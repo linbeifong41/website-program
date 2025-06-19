@@ -1,69 +1,67 @@
-ul {list-style-type: none;}
-body {font-family: verdana, sans-serif;}
-/* Month header */
-.month {
-    padding: 70px 25px;
-    width: 100%;
-    background:#1abc9c;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calendar {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0 2px rgba(0,0,0,0.1);
+
+}
+
+.Calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.Calendar-header button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+
+#month-year {
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.calendar-weekdays, .calendar-dates {
+    display: grid;
+    grid-template-columns: repeat( 7, 1fr);
+    
+}
+
+.calendar-weekdays div, .calendar-dates div {
     text-align: center;
+    padding: 10px;
 }
 
-/* Month list*/ 
-.month ul { 
-    margin:0;
-    padding:0;
+.calender-weekdays {
+    background-color: #eaeef3;
 }
 
-.month ul li { 
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+.celendar-weekdays div {
+    font-weight: bold;
 }
 
-/*previous button inside month header*/
-.month .prev { 
-    float: left;
-    padding-top: 10px;
+.calendar-dates div {
+    border-bottom: 1px solid #eaeef3;
+    cursor: pointer;
 }
 
-/*Weekdays (Mon-Sun)*/
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color: #ddd;
+.calendar-dates div :hover {
+    background-color: #f1f1f1;
 }
-
-.weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;  
-}
-
-/*Days (1-31)*/
-.days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-}
-
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size: 12px;
-    color: #777;
-}
-
-/* Highlight the "current" day*/
-.days li .active  {
-    padding: 5px;
-    background: #1abc9c;
-    color: white !important
-}
-
 
 
