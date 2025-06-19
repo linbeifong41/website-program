@@ -35,6 +35,19 @@
         </div>
 
     </div>
+    <div id="eventModal" class="modal hidden">
+        <form id="eventForm">
+            <h3>Add Event for <span id="selectedDataLabel"></span></h3>
+            <ul id="eventList"></ul>
+
+            <input type="text"  id="eventTitle" placeholder="Event Title" required />
+            <input type="time"  id="eventTime"  required />
+            <input type="color" id="eventColor" value="#2196f3" />
+            
+            <button type="submit">Save</button> 
+            <button type="button" onclick="closeModal()">Cancel</button>
+        </form>
+    </div>
 
     <script src="calender.js"></script>
 
